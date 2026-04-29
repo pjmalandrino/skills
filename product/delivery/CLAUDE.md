@@ -21,4 +21,4 @@ Sprint planning, release cadence, milestones, and project tracking. Owned by the
 ## Cross-references
 
 - Operational release execution (deploy, rollback): [`engineering/ops-run/`](../../engineering/ops-run/).
-- Product priorities feeding the plan: [`product/product/`](../product/).
+- Product priorities feeding the plan: [`product/pm/`](../product/).
