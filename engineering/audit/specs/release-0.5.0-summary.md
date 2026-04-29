@@ -11,7 +11,7 @@
 
 | #  | Audit                | Score   | CRIT | MAJ | MIN | INFO | Verdict          |
 |----|----------------------|---------|------|-----|-----|------|------------------|
-| 01 | Clean Architecture   | 100     | 0    | 0   | 0   | 0    | GO               |
+| 01 | Hexagonal Architecture   | 100     | 0    | 0   | 0   | 0    | GO               |
 | 02 | DDD                  | 91      | 0    | 1   | 1   | 0    | GO               |
 | 03 | Clean Code           | 83      | 0    | 0   | 3   | 0    | GO               |
 | 04 | KISS                 | 87.5    | 0    | 0   | 1   | 2    | GO               |

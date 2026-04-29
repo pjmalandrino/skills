@@ -7,7 +7,7 @@ Index of every invocable skill in this repo, grouped by sub-package. Each skill 
 | Skill                  | Description                                                              | Arg                              |
 |------------------------|--------------------------------------------------------------------------|----------------------------------|
 | `all`                  | Run the full audit master (all 12 audits) on a given release branch      | `<release-target>` (e.g. `release/0.5.0`) |
-| `clean-architecture`   | Audit 01 — Hexagonal Architecture (ports & adapters)                     | —                                |
+| `hexagonal`   | Audit 01 — Hexagonal Architecture (ports & adapters)                     | —                                |
 | `ddd`                  | Audit 02 — DDD                                                            | —                                |
 | `clean-code`           | Audit 03 — Clean Code                                                     | —                                |
 | `kiss`                 | Audit 04 — KISS                                                           | —                                |
@@ -64,7 +64,7 @@ Every audit skill enforces a rule documented elsewhere in the repo:
 
 | Audit skill                                         | Checklist (reference)                                                  | Enforces rule                                            |
 |-----------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------|
-| `audit/commands/clean-architecture.md`              | `audit/references/01-clean-architecture-checklist.md`                  | `architecture/rules/hexagonal-boundaries.md`             |
+| `audit/commands/hexagonal.md`              | `audit/references/01-hexagonal-checklist.md`                  | `architecture/rules/hexagonal-boundaries.md`             |
 | `audit/commands/ddd.md`                             | `audit/references/02-ddd-checklist.md`                                 | (DDD tactical patterns — rule TBD)                       |
 | `audit/commands/clean-code.md`                      | `audit/references/03-clean-code-checklist.md`                          | `architecture/rules/coding-standards.md`                 |
 | `audit/commands/kiss.md`                            | `audit/references/04-kiss-checklist.md`                                | `architecture/rules/coding-standards.md`                 |

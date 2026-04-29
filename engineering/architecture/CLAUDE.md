@@ -9,7 +9,7 @@ Architectural decisions, conventions, and the project's current architectural sh
 - A user asks about architectural style, layering, dependency direction, or modeling.
 - A PR or change touches code that crosses the `domain ↔ infra ↔ api` boundary.
 - A new feature is being designed and needs a design doc, ADR, or C4 update.
-- A user mentions: *hexagonal*, *ports & adapters*, *C4*, *container diagram*, *component diagram*, *DDD*, *clean architecture*.
+- A user mentions: *hexagonal*, *ports & adapters*, *C4*, *container diagram*, *component diagram*, *DDD*, *hexagonal architecture*.
 
 ## Layout
 

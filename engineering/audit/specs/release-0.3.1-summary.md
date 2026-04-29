@@ -10,7 +10,7 @@
 
 | # | Audit | Score initial | Score actuel | CRIT | MAJ | MIN | INFO | Verdict |
 |---|-------|--------------|--------------|------|-----|-----|------|---------|
-| 01 | Clean Architecture | 75 | **100** | 0 | 0 | 0 | 0 | **GO** |
+| 01 | Hexagonal Architecture | 75 | **100** | 0 | 0 | 0 | 0 | **GO** |
 | 02 | DDD | 81 | **100** | 0 | 0 | 0 | 0 | **GO** |
 | 03 | Clean Code | 56 | **93** | 0 | 0 | 2 | 0 | **GO** |
 | 04 | KISS | 100 | 100 | 0 | 0 | 0 | 0 | GO |
@@ -33,8 +33,8 @@
 
 | PR | Branche | Sujet | Ecarts corriges |
 |----|---------|-------|-----------------|
-| #131 | fix/clean-architecture-audit (base) | Clean Architecture | C1, C2, C3, M1, M2, MIN-1 |
-| #133 | fix/clean-architecture-audit | Clean Architecture | (complement PR #131) |
+| #131 | fix/hexagonal-audit (base) | Hexagonal Architecture | C1, C2, C3, M1, M2, MIN-1 |
+| #133 | fix/hexagonal-audit | Hexagonal Architecture | (complement PR #131) |
 | #135 | fix/ddd-audit | DDD | C4, M3, M4 |
 | #139 | fix/clean-code-audit | Clean Code | M5, M6, M7 |
 | #144 | fix/decoupling-audit | Decouplage | C5, M9, M10, M11, MIN-7 |
@@ -66,7 +66,7 @@
 **Score global 95/100** — toutes les categorues au-dessus du seuil GO.
 
 **Points forts du projet :**
-- Clean Architecture complete (100/100) : injection de dependances, ports/adapters, domain pur
+- Hexagonal Architecture complete (100/100) : injection de dependances, ports/adapters, domain pur
 - DDD exemplaire (100/100) : invariants proteges, value objects immutables, bounded contexts
 - Architecture SOLID exemplaire (100/100)
 - Simplicite KISS (100/100), aucune sur-ingenierie
