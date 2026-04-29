@@ -40,6 +40,10 @@ Every sub-package shares the same **5-folder template**:
 - Skills in `commands/` follow Claude Code skill format: frontmatter with `name`, `description`, optionally `allowed-tools`. The `description` field drives skill discoverability.
 - Cross-persona skills (e.g. a release checklist used by both PM and dev) live with their primary owner; the other persona's package links to it rather than duplicating.
 
+## Quick reference
+
+For a flat index of every invocable skill (audit, dev-flow, ops-run, security) with descriptions, arguments, and the rule each audit enforces: see [`COMMANDS.md`](COMMANDS.md).
+
 ## Repository workflow
 
 - Push directly to `main` (no PR/release flow on this repo).

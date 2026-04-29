@@ -1,7 +1,7 @@
 ---
 description: Audit 03 — Clean Code
 ---
-Read @docs/audit/audits/03-clean-code.md and apply the checklist to the whole project.
+Read @engineering/audit/references/03-clean-code-checklist.md and apply the checklist to the whole project.
 
 For each item: score 0 or its full weight, with a short justification + file:line evidence when failing.
 End with total score, max score, and failing items sorted by weight.

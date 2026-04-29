@@ -190,13 +190,13 @@ Conditions (si GO CONDITIONNEL) :
 ### Lancer un audit complet
 
 ```
-Audite la branche release/X.Y.Z en suivant docs/audit/master.md
+Audite la branche release/X.Y.Z en suivant engineering/audit/rules/release-audit-master.md
 ```
 
 ### Lancer un audit unitaire
 
 ```
-Execute l'audit docs/audit/audits/02-ddd.md sur la branche courante
+Execute l'audit engineering/audit/references/02-ddd-checklist.md sur la branche courante
 ```
 
 ### Re-auditer apres correction

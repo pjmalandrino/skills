@@ -12,15 +12,15 @@ Bump the Status line as the doc progresses; do not delete sections on the way.
 This template is tailored to the project's architecture and conventions:
   - Backend Hexagonal Architecture / ports & adapters
     (domain → api/services/persistence/infra)
-    see docs/architecture.md
+    see engineering/architecture/specs/architecture-overview.md
   - Backend coding standards (FastAPI + Pydantic camelCase, aiosqlite,
     Python snake_case internal, max 300 lines/file, 30 lines/function)
-    see docs/architecture/coding-standards.md
+    see engineering/architecture/rules/coding-standards.md
   - Frontend feature-based organization (Vue 3 + Pinia, one store per
     feature, Composition API, TypeScript strict, data-e2e selectors)
   - E2E with Karate UI (NOT Playwright) — see e2e/CONVENTIONS.md
-  - Audit dimensions used at release gate — see docs/audit/master.md
-  - ADR process for load-bearing decisions — see docs/architecture/adr-guide.md
+  - Audit dimensions used at release gate — see engineering/audit/rules/release-audit-master.md
+  - ADR process for load-bearing decisions — see engineering/architecture/references/adr-guide.md
 
 The `/conception` command pre-fills the header block and §1 / §2 / §12 from
 the linked issue. Everything else is on the author.
@@ -34,7 +34,7 @@ the linked issue. Everything else is on the author.
 - **Target milestone:** <milestone>
 - **Impacted layers:** <backend: domain | api | services | persistence | infra> · <frontend: features/<name> | shared | app> · <e2e> · <infra/CI>
 - **Audit dimensions likely touched:** <pick from: Hexagonal Architecture · DDD · Clean Code · KISS · DRY · SOLID · Decoupling · Security · Tests · CI/Build · Documentation · Performance>
-- **ADR spawned?:** <no / ADR-NNN — title>  *(write an ADR when choosing a library, moving a boundary, or deciding **not** to do something — see `docs/architecture/adr-guide.md`)*
+- **ADR spawned?:** <no / ADR-NNN — title>  *(write an ADR when choosing a library, moving a boundary, or deciding **not** to do something — see `engineering/architecture/references/adr-guide.md`)*
 
 ---
 
@@ -342,9 +342,9 @@ Links to everything a future reader would want.
 - **Related PRs / commits:**
 - **ADRs:** <ADR-NNN or "none planned">
 - **Project docs:**
-  - Architecture: `docs/architecture.md`
-  - Coding standards: `docs/architecture/coding-standards.md`
-  - ADR guide / template: `docs/architecture/adr-guide.md`, `docs/architecture/adr-template.md`
-  - Audit master: `docs/audit/master.md`
+  - Architecture: `engineering/architecture/specs/architecture-overview.md`
+  - Coding standards: `engineering/architecture/rules/coding-standards.md`
+  - ADR guide / template: `engineering/architecture/references/adr-guide.md`, `engineering/architecture/templates/adr-template.md`
+  - Audit master: `engineering/audit/rules/release-audit-master.md`
   - E2E conventions: `e2e/CONVENTIONS.md`
 - **External:** <specs, upstream issues, dashboards, third-party docs>

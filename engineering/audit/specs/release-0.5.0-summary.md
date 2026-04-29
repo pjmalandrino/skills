@@ -103,4 +103,4 @@ Bien que le score global (84.2/100) soit confortablement au-dessus du seuil GO e
 4. Documenter / corriger la desactivation du security plugin OpenSearch (`docker-compose.yml`).
 5. Centraliser l'URL d'API et les cles localStorage du frontend (`frontend/src/features/settings/store.ts`).
 
-**Recommandation** : apres remediation des 5 points ci-dessus, re-auditer **uniquement** les audits 11, 08 et 05 (commande : `Re-audite uniquement les ecarts CRITICAL et MAJOR du rapport docs/audit/reports/release-0.5.0/summary.md`). Les autres MAJ peuvent etre planifies pour 0.5.1 sans bloquer le tag.
+**Recommandation** : apres remediation des 5 points ci-dessus, re-auditer **uniquement** les audits 11, 08 et 05 (commande : `Re-audite uniquement les ecarts CRITICAL et MAJOR du rapport engineering/audit/specs/release-0.5.0-summary.md`). Les autres MAJ peuvent etre planifies pour 0.5.1 sans bloquer le tag.

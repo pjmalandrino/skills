@@ -7,7 +7,7 @@
 ## Context
 
 v0.5.0 introduces Neo4j as a graph-native storage layer for parsed documents
-(see [docs/design/neo4j-integration.md](../../design/neo4j-integration.md)
+(see [engineering/architecture/specs/adrs-and-design/neo4j-integration.md](../../design/neo4j-integration.md)
 and [#186](https://github.com/scub-france/Docling-Studio/issues/186)). We need
 an in-app visualization of that graph: the `DoclingDocument` tree as rendered
 in Neo4j, with nodes colored by element type (`SectionHeader`, `Paragraph`,

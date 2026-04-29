@@ -25,7 +25,7 @@ Process for handling reported security vulnerabilities. See also [SECURITY.md](h
 
 1. **Create a private branch** — never push vulnerability details to a public branch before the fix is released
 2. **Develop the fix** — include a regression test
-3. **Run the security audit** — `docs/audit/audits/08-security.md`
+3. **Run the security audit** — `engineering/audit/references/08-security-checklist.md`
 4. **Review** — at least one maintainer must review the fix
 5. **Release** — tag, build, deploy (see [deployment checklist](../release/deployment-checklist.md))
 6. **Publish advisory** — GitHub Security Advisory with CVE if applicable

@@ -21,7 +21,7 @@ Do NOT write an ADR for:
 
 ## How to Write an ADR
 
-1. Copy `adr-template.md` to `docs/architecture/adrs/ADR-NNN-short-title.md`
+1. Copy `adr-template.md` to `engineering/architecture/specs/adrs-and-design/ADR-NNN-short-title.md`
 2. Number sequentially (ADR-001, ADR-002, ...)
 3. Fill in all sections — especially **Context** (the *why*) and **Alternatives Considered**
 4. Set status to `Proposed`

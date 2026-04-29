@@ -19,7 +19,7 @@ If pre-flight fails, do not run any audit.
 
 ## Execution
 
-Read @docs/audit/master.md and run every referenced audit in order.
+Read @engineering/audit/rules/release-audit-master.md and run every referenced audit in order.
 
 For each audit:
 - Score the items per the master.md weighting formula.

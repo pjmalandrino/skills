@@ -6,7 +6,7 @@ Checklist for deploying a new release of Docling Studio. Applies to both self-ho
 
 - [ ] Release branch merged to `main` via PR
 - [ ] Git tag `vX.Y.Z` created on `main`
-- [ ] Release audit passed (score >= 80, 0 CRITICAL) — see [docs/audit/master.md](../audit/master.md)
+- [ ] Release audit passed (score >= 80, 0 CRITICAL) — see [engineering/audit/rules/release-audit-master.md](../audit/master.md)
 - [ ] `CHANGELOG.md` section finalized with release date
 - [ ] `frontend/package.json` version matches the tag
 - [ ] All CI checks green on the tagged commit

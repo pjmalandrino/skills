@@ -203,7 +203,7 @@ Frontend (Vitest):
 ## 6. Spec anchoring
 
 Pin the `RAGResult` shape to **docling-agent commit SHA at the time of v1 merge** in
-a short ADR `docs/architecture/adrs/ADR-002-rag-result-schema.md`. The schema is
+a short ADR `engineering/architecture/specs/adrs-and-design/ADR-002-rag-result-schema.md`. The schema is
 upstream, unversioned, and will move — this doc freezes the contract Studio imports.
 
 ---

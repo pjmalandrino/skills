@@ -2,7 +2,7 @@
 description: Walk through the incident response playbook
 argument-hint: [short-incident-description]
 ---
-Read @docs/operations/incident-response.md and guide me through it step by step.
+Read @engineering/ops-run/specs/incident-response-playbook.md and guide me through it step by step.
 
 Incident context (if provided): $ARGUMENTS
 

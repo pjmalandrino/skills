@@ -1,7 +1,7 @@
 ---
 description: Review current branch changes against the code review checklist
 ---
-Read @docs/git-workflow/code-review-checklist.md.
+Read @engineering/dev-flow/rules/code-review-checklist.md.
 
 Then inspect the current branch:
 - `git status`
