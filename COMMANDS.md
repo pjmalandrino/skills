@@ -65,16 +65,16 @@ Every audit skill enforces a rule documented elsewhere in the repo:
 | Audit skill                                         | Checklist (reference)                                                  | Enforces rule                                            |
 |-----------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------|
 | `audit/commands/hexagonal.md`              | `audit/references/01-hexagonal-checklist.md`                  | `architecture/rules/hexagonal-boundaries.md`             |
-| `audit/commands/ddd.md`                             | `audit/references/02-ddd-checklist.md`                                 | (DDD tactical patterns — rule TBD)                       |
+| `audit/commands/ddd.md`                             | `audit/references/02-ddd-checklist.md`                                 | `architecture/rules/ddd-tactical-patterns.md`            |
 | `audit/commands/clean-code.md`                      | `audit/references/03-clean-code-checklist.md`                          | `architecture/rules/coding-standards.md`                 |
 | `audit/commands/kiss.md`                            | `audit/references/04-kiss-checklist.md`                                | `architecture/rules/coding-standards.md`                 |
 | `audit/commands/dry.md`                             | `audit/references/05-dry-checklist.md`                                 | `architecture/rules/coding-standards.md`                 |
-| `audit/commands/solid.md`                           | `audit/references/06-solid-checklist.md`                               | (SOLID — rule TBD)                                       |
+| `audit/commands/solid.md`                           | `audit/references/06-solid-checklist.md`                               | `architecture/rules/solid.md`                            |
 | `audit/commands/decoupling.md`                      | `audit/references/07-decoupling-checklist.md`                          | `architecture/rules/hexagonal-boundaries.md`             |
 | `audit/commands/security.md`                        | `audit/references/08-security-checklist.md`                            | `security/rules/security-policy.md`                      |
 | `audit/commands/tests.md`                           | `audit/references/09-tests-checklist.md`                               | `quality/rules/karate-e2e-conventions.md`                |
-| `audit/commands/ci-build.md`                        | `audit/references/10-ci-build-checklist.md`                            | (CI conventions — rule TBD)                              |
-| `audit/commands/documentation.md`                   | `audit/references/11-documentation-checklist.md`                       | (doc standards — rule TBD)                               |
-| `audit/commands/performance.md`                     | `audit/references/12-performance-checklist.md`                         | (perf budget — rule TBD)                                 |
+| `audit/commands/ci-build.md`                        | `audit/references/10-ci-build-checklist.md`                            | `dev-flow/rules/ci-conventions.md`                       |
+| `audit/commands/documentation.md`                   | `audit/references/11-documentation-checklist.md`                       | `dev-flow/rules/documentation-standards.md`              |
+| `audit/commands/performance.md`                     | `audit/references/12-performance-checklist.md`                         | `architecture/rules/performance-budget.md`               |
 
 Run `audit/commands/all.md` to chain every audit on a release branch and produce a consolidated report.
