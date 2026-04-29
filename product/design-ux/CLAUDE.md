@@ -20,5 +20,5 @@ Visual design, interaction design, and UX research. Owned by designers and UX re
 
 ## Cross-references
 
-- Product framing for new features: [`product/product/`](../product/).
+- Product framing for new features: [`product/pm/`](../product/).
 - Frontend implementation conventions: [`engineering/dev-flow/`](../../engineering/dev-flow/).

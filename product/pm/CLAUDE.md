@@ -20,6 +20,6 @@ Product strategy, vision, roadmap, PRDs, and discovery work. Owned by the PO and
 
 ## Cross-references
 
-- Hand-off to engineering: [`engineering/architecture/templates/design-doc.md`](../../engineering/architecture/templates/design-doc.md) (tech design format).
+- Hand-off to engineering: [`engineering/architecture/templates/design-doc-template.md`](../../engineering/architecture/templates/design-doc-template.md) (tech design format).
 - Delivery cadence: [`product/delivery/`](../delivery/).
 - UX design and research: [`product/design-ux/`](../design-ux/).
