@@ -5,7 +5,7 @@ Curated project skills, organized **by audience persona** — not by discipline.
 ## Layout
 
 - `product/`     — PO, PM, designers, delivery managers
-  - `product/`     product management (vision, roadmap, PRDs)
+  - `discovery/`     product management (vision, roadmap, PRDs)
   - `design-ux/`   design and UX research
   - `delivery/`    planning, releases, sprint cadence
 - `engineering/` — developers, architects, ops, security
